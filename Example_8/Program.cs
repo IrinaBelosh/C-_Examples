@@ -21,6 +21,14 @@ int c3 = 32;
 int max = Max(Max(a1, b1, c1), Max(a2, b2, c2), Max(a3, b3, c3));
 Console.WriteLine(max);
 
+// Можно записать так
+// int max = Max(
+        // Max(a1, b1, c1), 
+        // Max(a2, b2, c2), 
+        // Max(a3, b3, c3));
+// Console.WriteLine(max);
+
+
 // Вариант первый без функции.
 // Console.Clear();
 // int a1 = 15;
