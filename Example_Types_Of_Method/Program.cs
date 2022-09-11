@@ -101,7 +101,7 @@
 // newText = Replace(texte, 'к', 'К'); //тут string можно не повторять, так как тип уже задан выше.
 // Console.WriteLine(newText);
 // Console.WriteLine();
-// newText = Replace(texte, 'с', 'С');
+// newText = Replace(texte, 'с', 'С'); // Переменная char указывается в одинарных кавычках! 
 // Console.WriteLine(newText);
 
 // //string s = "fgdhskjs" 
