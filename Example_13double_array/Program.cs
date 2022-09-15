@@ -145,16 +145,31 @@
 // }
 
 //-------------------------------------------------------------------------------------
-//Числа фибоначи
+// //Числа фибоначи
 
+// int Fibonachi(int n) //задаем метод
+// {
+//     if (n == 1 || n == 2) return 1;
+//     else return Fibonachi(n - 1) + Fibonachi(n - 2);
+// }
+
+// for (int i = 1; i < 30; i++) // до 30, указываем в ручную
+// {
+//     Console.WriteLine(Fibonachi(i));
+// }
+
+// то же самое с запросом числа
 int Fibonachi(int n) //задаем метод
 {
     if (n == 1 || n == 2) return 1;
     else return Fibonachi(n - 1) + Fibonachi(n - 2);
 }
 
-for (int i = 1; i < 10; i++)
+Console.Clear();
+Console.Write("Enter a number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 1; i <= num; i++)
 {
     Console.WriteLine(Fibonachi(i));
 }
-
